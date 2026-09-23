@@ -1,0 +1,62 @@
+html {
+    background-color: hsla(26, 3%, 25%, 0.8 );
+    width: auto;
+}
+
+header {
+    display: grid;
+    grid-template-areas: 
+    "title home";
+}
+
+header h1.title {
+    grid-area: title;
+}
+
+header nav.home {
+    grid-area: home;
+}
+
+body {
+    background-color: hsla(26, 58%, 86%, 0.3);
+    padding: 5px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+form.bmi {
+    display: grid;
+    grid-template-areas: 
+    "weight height button";
+    margin: 10px;
+}
+
+form.bmi label.weight {
+    grid-area: weight;
+}
+
+form.bmi label.height {
+    grid-area: height;
+}
+
+form.bmi button.button {
+    grid-area: button;
+    padding: 2px;
+}
+
+
+h1 {
+    color: royalblue;
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 8pt;
+    margin: 1px;
+}

@@ -1,0 +1,10 @@
+form.bmi(action='/submit' method='POST')
+  label.weight
+    | Your weight (LBS):
+    input(type='number' name='userWeight')
+  label.height
+    | Your height (Inches):
+    input(type='number' name='userHeight')
+  button.button(type='submit')
+    | Calculate
+    
